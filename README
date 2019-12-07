@@ -1,0 +1,24 @@
+
+:: How to build
+
+$ sudo apt install libssl-dev libtool autoconf automake curl
+$ cd ninano/lib/paho.mqtt.c
+$ make
+$ sudo make install
+$ cd ..
+$ cd json-c
+$ sh autogen.sh
+$ ./configure --prefix=/usr/local
+$ make
+$ sudo make install
+$ cd ..
+$ cd cgic207
+$ make
+$ sudo make install
+$ sudo vi /etc/ld.so.conf
+   include /etc/local/lib 추가
+$ sudo ldconfig
+$ cd ../../src/server
+$ make
+$ sudo make install
+

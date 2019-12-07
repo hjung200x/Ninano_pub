@@ -1,0 +1,71 @@
+== Info: Rebuilt URL to: Ninano_notification:55ed3e68901311e989590cc47a1fcfae/
+== Info: Could not resolve host: Ninano_notification
+== Info: Closing connection 0
+== Info:   Trying 108.61.180.124...
+== Info: Connected to api.bluehouselab.com (108.61.180.124) port 443 (#1)
+== Info: found 173 certificates in /etc/ssl/certs/ca-certificates.crt
+== Info: found 697 certificates in /etc/ssl/certs
+== Info: ALPN, offering http/1.1
+== Info: SSL connection using TLS1.2 / ECDHE_RSA_AES_128_GCM_SHA256
+== Info: 	 server certificate verification OK
+== Info: 	 server certificate status verification SKIPPED
+== Info: 	 common name: api.bluehouselab.com (matched)
+== Info: 	 server certificate expiration date OK
+== Info: 	 server certificate activation date OK
+== Info: 	 certificate public key: RSA
+== Info: 	 certificate version: #3
+== Info: 	 subject: OU=Domain Control Validated,OU=PositiveSSL,CN=api.bluehouselab.com
+== Info: 	 start date: Mon, 18 Jul 2016 00:00:00 GMT
+== Info: 	 expire date: Wed, 16 Oct 2019 23:59:59 GMT
+== Info: 	 issuer: C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA
+== Info: 	 compression: NULL
+== Info: ALPN, server did not agree to a protocol
+=> Send header, 174 bytes (0xae)
+0000: 50 4f 53 54 20 2f 73 6d 73 63 65 6e 74 65 72 2f POST /smscenter/
+0010: 76 31 2e 30 2f 73 65 6e 64 73 6d 73 20 48 54 54 v1.0/sendsms HTT
+0020: 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 61 70 69 P/1.1..Host: api
+0030: 2e 62 6c 75 65 68 6f 75 73 65 6c 61 62 2e 63 6f .bluehouselab.co
+0040: 6d 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 63 m..User-Agent: c
+0050: 75 72 6c 2f 37 2e 34 37 2e 30 0d 0a 41 63 63 65 url/7.47.0..Acce
+0060: 70 74 3a 20 2a 2f 2a 0d 0a 43 6f 6e 74 65 6e 74 pt: */*..Content
+0070: 2d 54 79 70 65 3a 20 61 70 70 6c 69 63 61 74 69 -Type: applicati
+0080: 6f 6e 2f 6a 73 6f 6e 3b 63 68 61 72 73 65 74 3d on/json;charset=
+0090: 75 74 66 2d 38 0d 0a 43 6f 6e 74 65 6e 74 2d 4c utf-8..Content-L
+00a0: 65 6e 67 74 68 3a 20 31 33 38 0d 0a 0d 0a       ength: 138....
+=> Send data, 138 bytes (0x8a)
+0000: 7b 22 73 65 6e 64 65 72 22 3a 20 22 30 31 30 30 {"sender": "0100
+0010: 30 30 30 30 30 30 30 22 2c 20 22 72 65 63 65 69 0000000", "recei
+0020: 76 65 72 73 22 3a 20 5b 22 30 31 30 30 30 30 30 vers": ["0100000
+0030: 30 30 30 30 22 5d 2c 20 22 63 6f 6e 74 65 6e 74 0000"], "content
+0040: 22 3a 20 22 eb 82 98 eb 8a 94 20 ec 9c a0 eb a6 ": "...... .....
+0050: ac eb a5 bc 20 eb a8 b9 ec 9d 84 20 ec 88 98 20 .... ...... ... 
+0060: ec 9e 88 ec 96 b4 ec 9a 94 2e 20 ea b7 b8 eb 9e .......... .....
+0070: 98 eb 8f 84 20 ec 95 84 ed 94 84 ec a7 80 20 ec .... ......... .
+0080: 95 8a ec 95 84 ec 9a 94 22 7d                   ........"}
+== Info: upload completely sent off: 138 out of 138 bytes
+<= Recv header, 27 bytes (0x1b)
+0000: 48 54 54 50 2f 31 2e 31 20 34 30 31 20 55 4e 41 HTTP/1.1 401 UNA
+0010: 55 54 48 4f 52 49 5a 45 44 0d 0a                UTHORIZED..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 54 68 75 2c 20 32 30 20 4a 75 Date: Thu, 20 Ju
+0010: 6e 20 32 30 31 39 20 32 32 3a 33 33 3a 33 39 20 n 2019 22:33:39 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 31 bytes (0x1f)
+0000: 53 65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 Server: Apache/2
+0010: 2e 34 2e 37 20 28 55 62 75 6e 74 75 29 0d 0a    .4.7 (Ubuntu)..
+<= Recv header, 70 bytes (0x46)
+0000: 57 57 57 2d 41 75 74 68 65 6e 74 69 63 61 74 65 WWW-Authenticate
+0010: 3a 20 42 61 73 69 63 20 52 65 61 6c 6d 3d 22 42 : Basic Realm="B
+0020: 6c 75 65 48 6f 75 73 65 4c 61 62 20 53 4d 53 20 lueHouseLab SMS 
+0030: 61 70 69 20 6b 65 79 20 69 73 20 72 65 71 75 69 api key is requi
+0040: 72 65 64 22 0d 0a                               red"..
+<= Recv header, 19 bytes (0x13)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 30 0d 0a                                        0..
+<= Recv header, 40 bytes (0x28)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73 65 74 xt/html; charset
+0020: 3d 75 74 66 2d 38 0d 0a                         =utf-8..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+== Info: Connection #1 to host api.bluehouselab.com left intact
